@@ -1,85 +1,190 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+.portfolio-header {
+  max-width: 1440px;
+  background-color:#FB3F5C ;
+  margin: 0 auto 0 auto;
+padding-top:23px ;
+ 
+  
+
+}
+
+.portfolio-header-content {
+  display: flex;
+  justify-content:start;
+  
+  margin: 0 126px 27px 97px;
+  
+}
+
+.portfolio-header-content .logo {
+height: 51px;
+
+
+}
+.navigation {
+  display: flex;
+  margin-left:  393px; 
+}
+.navigation ul {
+  display: flex;
+  gap:52px;
+  justify-content: flex-start;
+}
+.navigation ul li {
+  list-style: none;
+  
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  font-family: 'Nunito Sans';
+font-size: 24px;
+font-weight: 700;
+line-height: 32.74px;
+text-align: left;
+color: #fff;
+
+}
+
 .container {
-    max-width: 1440;
-    width: 100%;
-    padding: 0 100px;
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto  ;
+  padding: 0 111px 0 110px;
+  display: flex;
 }
-
-h1 {
-    font-family: 'Nunito Sans';
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 68.2px;
-    text-align: left;
+.about {
+  display: flex;
+  flex-direction: column;
+  padding-top:101px ;
+}
+.about p {
+  font-family: Nunito Sans;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38.19px;
+  text-align: left;
   }
 
-  h2 {
-    font-family: 'Nunito Sans';
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 65.47px;
-    text-align: left;
-  }
-
-  .second-section {
-    display: flex;
-    justify-content: center;
-    gap:76px ;
+ span {
+  color:#FB3F5C ;
  }
 
- .projects-info p {
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 49px;
-display: flex;
-align-items: center;
-justify-content: center;
-text-transform: uppercase;
-color: #191018;
+h1 {
+  font-family: "Nunito Sans";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 68.2px;
+  text-align: left;
+}
+ .content  { 
+  display: flex;
+  flex-direction: column;
+  margin-right: 283px ;
+
 }
 
+.content p {
+  font-family: Nunito Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 32.74px;
+letter-spacing: 0.06em;
+text-align: left;
+
+}
+.persona {
+ 
+  background-image: url(./portfolio/triangal.png);
+ padding-right:110px ;
+  background-size:cover ;
+  background-repeat: no-repeat;
+  position: absolute;
+
+
+
+ 
+}
+.overlay img {
+ width: 456px;
+ height: 541px;
+  border: 1px;
+
+  overflow: hidden;
+  border-radius: 20px; 
+  position:relative ;
+  margin-top: 30px;
+  margin-left:  700px; 
+
+
+
+}
+h2 {
+  font-family: "Nunito Sans";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65.47px;
+  text-align: left;
+}
+
+.second-section {
+  display: flex;
+  justify-content: center;
+  gap: 76px;
+}
+
+.projects-info p {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #191018;
+}
 
 .projects-info p:first-child {
-    font-family: 'Nunito Sans';
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 65.47px;
-    text-align: center;
- }   
-    
-.Latest-work {
-        font-family: 'Nunito Sans';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 42px;
-        text-align: center;
-        color: #191018;
- }  
+  font-family: "Nunito Sans";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65.47px;
+  text-align: center;
+}
 
 .Latest-work {
-        font-family: 'Nunito Sans';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 42px;
-        text-align: center;
-        color: #191018;
-}  
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 42px;
+  text-align: center;
+  color: #191018;
+}
 
+.Latest-work {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 42px;
+  text-align: center;
+  color: #191018;
+}
 
 .card-description {
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 27px;
-    color: #2D2D2D;
-    }
-    
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #2d2d2d;
+}

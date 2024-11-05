@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .portfolio-header {
+    max-width: 1440px;
+    background-color:#FB3F5C ;
+    margin: 0 auto 0 auto;
+  padding-top:23px ;
+   
+    
+  
+  }
+  
+  .portfolio-header-content {
+    display: flex;
+    justify-content:start;
+    
+    margin: 0 126px 27px 97px;
+    
+  }
+  
+  .portfolio-header-content .logo {
+  height: 51px;
+  
+  
+  }
+  .navigation {
+    display: flex;
+    margin-left:  393px; 
+  }
+  .navigation ul {
+    display: flex;
+    gap:52px;
+    justify-content: flex-start;
+  }
+  .navigation ul li {
+    list-style: none;
+    
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.74px;
+  text-align: left;
+  color: #fff;
+  
+  }
